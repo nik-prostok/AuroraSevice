@@ -1,0 +1,28 @@
+{
+  "name": "aurorasevice",
+  "version": "1.0.0",
+  "description": "This is backend for chatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nik-prostok/AuroraSevice.git"
+  },
+  "author": "NikProst, Andrew Alexeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nik-prostok/AuroraSevice/issues"
+  },
+  "homepage": "https://github.com/nik-prostok/AuroraSevice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mongoose": "^5.4.22",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  }
+}
