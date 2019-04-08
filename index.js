@@ -25,7 +25,7 @@ app.all("*", (req, res) => {
 app.use(errorHandler);
 
 app.listen(process.env.PORT || port, () => {
-    console.log(`AuroraBack app listening on port ${port}`);
+  console.log(`AuroraBack app listening on port ${port}`);
 });
 
 /* db(config)

@@ -40,6 +40,9 @@ const testData = [
 ];
 
 module.exports = {
+  getAll: async (req, res) => {
+    res.status(200).send(testData);
+  },
   getShedule: async (req, res) => {
     let timeReq = new Date(req.params.date);
     console.log(timeReq.getTime());
